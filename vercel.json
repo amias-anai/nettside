@@ -1,6 +1,22 @@
 {
   "rewrites": [
     {
+      "source": "/auth/:path*",
+      "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/auth/:path*"
+    },
+    {
+      "source": "/mailbox/:path*",
+      "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/mailbox/:path*"
+    },
+    {
+      "source": "/agent/:path*",
+      "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/agent/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/health"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
