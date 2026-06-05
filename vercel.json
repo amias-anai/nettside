@@ -13,6 +13,10 @@
       "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/agent/:path*"
     },
     {
+      "source": "/webhooks/:path*",
+      "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/webhooks/:path*"
+    },
+    {
       "source": "/health",
       "destination": "https://pahr-email-agent-backend-amias-anais-projects.vercel.app/health"
     },
